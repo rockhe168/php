@@ -1,0 +1,67 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>义工-手机注册页</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta content="yes" name="apple-touch-fullscreen">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="screen-orientation" content="portrait"><!-- uc强制竖屏 -->
+    <meta name="x5-orientation" content="portrait"><!-- QQ强制竖屏 -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="white" />
+    <meta content="telephone=no,email=no" name="format-detection">
+    <script>
+        (function (doc, win) {
+            var docEl = doc.documentElement,
+                    resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+                    recalc = function () {
+                        var clientWidth = docEl.clientWidth;
+                        if (!clientWidth) return;
+                        if(clientWidth>750){
+                            docEl.style.fontSize =40+'px';
+                        }else{
+                            docEl.style.fontSize = 20 * (clientWidth / 375) + 'px';
+                        }
+                    };
+            if (!doc.addEventListener) return;
+            win.addEventListener(resizeEvt, recalc, false);
+            doc.addEventListener('DOMContentLoaded', recalc, false);
+        })(document, window);
+    </script>
+    <link rel="stylesheet" href="./css/base.css" type="text/css">
+    <link rel="stylesheet" href="./css/vol_lation.css">
+</head>
+<body>
+<section class="layout">
+        <div class="img_head">
+            <img src="images/img1.png">
+        </div>
+        <div class="body">
+            <dl>
+                <dt>我想去</dt>
+                <dd class="on">桑给巴尔</dd>
+                <dd>不丹</dd>
+                <dd>马尔代夫</dd>
+            </dl>
+            <div class="phone">
+                <span class="on">001</span>
+                <span>001</span>
+                <input type="text" placeholder="请输入手机号码" class="text">
+            </div>
+        </div>
+        <div class="foot">
+            <div class="tip">
+                提醒：请认真填写，若您中奖，我们将会通过手机号码联系您
+            </div>
+            <input type="submit" class="submit" value="下一步">
+        </div>
+
+</section>
+
+</body>
+</html>
+
+
+

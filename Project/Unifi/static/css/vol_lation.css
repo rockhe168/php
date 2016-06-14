@@ -1,0 +1,23 @@
+/* 义工手机注册 */
+body{height: 100%}
+#layout{max-width:750px;min-width:320px;background:url(../images/bg1.jpg) no-repeat #000;margin:0 auto;-webkit-background-size:cover;background-size:cover;overflow:hidden;height: 100%;font-size: 40px}
+#layout.bg1{background:url(../images/bg1.jpg) no-repeat #000;-webkit-background-size:cover;background-size:cover;}
+#layout.bg2{background:url(../images/bg2.jpg) no-repeat #000;-webkit-background-size:cover;background-size:cover;}
+#layout.bg3{background:url(../images/bg3.jpg) no-repeat #000;-webkit-background-size:cover;background-size:cover;}
+#layout .img_head{padding-top:105px;overflow:hidden;margin-bottom:1.375rem;text-align: center}
+#layout .img_head img{width:18.75rem;height:12.725rem;background-size:18.75rem auto}
+#layout .body{padding-left:.75rem;padding-right:.75rem}
+#layout .body dl{height:auto;overflow:hidden}
+#layout .body dt{float:left;font-size:1rem;color:#fff;line-height:1.8rem;margin-right:.75rem}
+#layout .body dd{float:left;margin-right:.75rem;font-size:.8rem;width:4rem;height:1.8rem;box-sizing:border-box;text-align:center;line-height:1.8rem;color:#fff;border:1px solid #fff;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px}
+#layout .body dd.on{background:#24bcb4;border:1px solid #24bcb4}
+#layout .body dd:last-child{margin-right:0}
+#layout .body .phone{border-bottom:1px solid #fff;padding-bottom:.25rem;margin-top:.875rem}
+#layout .body .phone span{width:2.7rem;box-sizing:border-box;height:1.5rem;display:inline-block;text-align:center;line-height:1.5rem;font-size:.75rem;color:#fff;border:1px solid #fff;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px}
+#layout .body .phone span:last-child{margin-left:.375rem}
+#layout .body .phone span.on{background:#24bcb4;border:1px solid #24bcb4}
+#layout .body .phone .text{width:10.9rem;color:#fff;font-size:1rem;letter-spacing:1px;padding-left:.25rem;height:1.2rem;line-height:1.2rem;background:0 0;border-left:1px solid #fff}
+#layout .foot{padding-left:.75rem;padding-right:.75rem}
+#layout .foot .tip{margin-top:.7rem;font-size:.8rem;color:#ffd89a}
+#layout .foot .submit{width:100%;margin-top:1.125rem;margin-bottom:1.5rem;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;font-size:1.2rem;line-height:2.6rem;color:#fff;display:block;height:2.6rem;background:#24bcb4}
+

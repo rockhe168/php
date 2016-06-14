@@ -1,0 +1,23 @@
+INSERT INTO activity_UserInfo VALUES(1,'17751728413','888888','Rock','','马尔代夫','1002',NOW(),NOW());
+
+
+INSERT into activity_gzhConfig VALUES(1,'1001','www.baidu.com','Traview途闻公众号1','每日以苛刻的眼光精选全球旅行短视频-1','1002','1003','1004',NOW(),NOW());
+INSERT into activity_gzhConfig VALUES(2,'1002','www.baidu.com','Traview途闻公众号2','每日以苛刻的眼光精选全球旅行短视频-2','1005','1003','1004',NOW(),NOW());
+INSERT into activity_gzhConfig VALUES(3,'1003','www.baidu.com','Traview途闻公众号3','每日以苛刻的眼光精选全球旅行短视频-3','1004','1005','1006',NOW(),NOW());
+INSERT into activity_gzhConfig VALUES(4,'1004','www.baidu.com','Traview途闻公众号4','每日以苛刻的眼光精选全球旅行短视频-4','1005','1006','1001',NOW(),NOW());
+INSERT into activity_gzhConfig VALUES(5,'1005','www.baidu.com','Traview途闻公众号5','每日以苛刻的眼光精选全球旅行短视频-5','1006','1001','1002',NOW(),NOW());
+INSERT into activity_gzhConfig VALUES(6,'1006','www.baidu.com','Traview途闻公众号6','每日以苛刻的眼光精选全球旅行短视频-6','1003','1001','1002',NOW(),NOW());
+INSERT into activity_gzhConfig VALUES(7,'9999','www.baidu.com','Traview途闻默认公众号','每日以苛刻的眼光精选全球旅行短视频-默认','1006','1001','1002',NOW(),NOW());
+
+
+alter table wlt_positioninfo add companyPropertyIdStr varchar(100) NULL COMMENT '职位对应公司性质Id字符串（用，拼接）';
+alter table wlt_positioninfo add companyPropertyNameStr varchar(500) NULL COMMENT '职位对应公司性质姓名字符串（用，拼接）';
+alter table wlt_positioninfo add companyScaleIdStr varchar(100) NULL COMMENT '职位对应公司规模Id字符串（用，拼接）';
+alter table wlt_positioninfo add companyScaleNameStr varchar(500) NULL COMMENT '职位对应公司规模姓名字符串（用，拼接）';
+
+
+
+INSERT into activity_Code(1,'888888',1,300589,1,'1001',NOW(),NOW());
+INSERT into activity_Code(2,'888888',1,300559,0,'1001',NOW(),NOW());
+INSERT into activity_Code(3,'888888',1,300439,0,'1001',NOW(),NOW());
+INSERT into activity_Code(4,'888888',1,300189,0,'1001',NOW(),NOW());

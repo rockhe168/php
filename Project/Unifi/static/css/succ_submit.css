@@ -1,0 +1,6 @@
+/* 义工个人  */
+body{background: url("../images/succ_bg.png") no-repeat center 30px #cce1e2;background-size: 90%;font-size: 12px;overflow: hidden}
+.sub_success{width: 100%;margin: 0 auto;}
+.sub_success span{display: block;margin: 100px auto 20px ; width: 90%;text-align: center;font-size: 1.2rem;color: #24bcb4;}
+.sub_success p{width: 80%;line-height: 30px;color: #2d2d2d;margin: 0 auto;font-size: 1.0rem;}
+.sub_success  img{width: 100%;position: fixed;bottom: 0;left: 0;}

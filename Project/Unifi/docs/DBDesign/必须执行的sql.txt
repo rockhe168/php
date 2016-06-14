@@ -1,0 +1,1 @@
+INSERT INTO activity_config VALUES('wxconfig',null,null,null,null,NOW(),NOW());

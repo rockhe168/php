@@ -1,0 +1,57 @@
+/* 免息额度 */
+
+body{background: url("../images/free_bg.jpg") no-repeat #d9dadb;background-size: 100%;font-size: 12px;}
+.free_limit{margin: 30px auto;overflow: hidden;width: 100%}
+.free_limit .free_img{width: 94%;margin: 0 auto; display: block;}
+.free_limit .phone_call{width: 94%;height:auto;background: #d5d3d4;margin:0 auto;padding-top: 20px;background: rgba(225,225,225,0.9);border-bottom-left-radius:16px;border-bottom-right-radius:16px;padding-bottom: 20px;}
+.free_limit .phone_call .district{width: 100%;height:50px;background: #eae7e8; position: relative;}
+.free_limit .phone_call .district span{position: absolute;left:10px;top:12px;padding: 2px 14px;border-radius: 4px;font-size: 1rem;border: 1px solid #e54b68;color: #e54b68;}
+.free_limit .phone_call .district .current{background: #e54b68;color: #fff;}
+.free_limit .phone_call .district span:last-of-type{position: absolute;left:74px;top: 12px;}
+.free_limit .phone_call .district .phone_num{width: 70%;height:100%;margin-left: 140px;}
+.free_limit .phone_call .district .phone_num input{height:70%;margin-top: 8px; background:none;border-left: 1px solid #e54b68;padding-left: 10px;font-size: 20px;color: #777}
+.free_limit .phone_call .once_get{width: 90%;height: 50px;line-height:50px;text-align: center;color: #fff; display: block;background: #e54b68;margin:20px auto 0;border-radius:28px;font-size: 1.2rem; }
+.free_limit .phone_call a{text-align: center;display: block;margin: 20px auto -20px ;color: #4d4d4d;padding-bottom: 20px;}
+.free_limit .uni_app{width:100%;height: 364px;background:url("../images/un_ico.png") no-repeat top center;background-size:100%;margin-top: 70px;position:relative;padding-top: 10px;}
+.free_limit .uni_app .un_ico{position: absolute;left: 50%;top:-42px;width: 92px;margin-left: -46px;}
+.free_limit .uni_app .un_cont{height:auto;background:#d9dadb;width: 100%;margin-top: 38px;padding-bottom: 50px;}
+.free_limit .uni_app .un_cont .tit{text-align: center;margin: 0 auto;display: block;color: #24bcb4;padding-top: 10px;}
+.free_limit .uni_app .un_cont .un_list{display: table;width: 100%;height:120px;margin-top: 20px; }
+.free_limit .uni_app .un_cont .un_list li{display: table-cell;}
+.free_limit .uni_app .un_cont .un_list li img{width: 68px;margin: 0 auto;display: block;}
+.free_limit .uni_app .un_cont .un_list li span{text-align: center;margin: 10px auto 0;display: block;}
+.free_limit .uni_app .un_cont .uic_join{width: 90%;height:90px; border: 1px solid #a6cdd9;margin: 40px auto;background: #f7f7f7;position: relative;}
+.free_limit .uni_app .un_cont .uic_join .jon_bg{width: 100%;height:30px;background:url("../images/hands_bg.png") no-repeat top center ;background-size :100%;display: block;position: absolute;left: 0;top:-14px;line-height:30px;text-align: center;color: #4989bb;}
+.free_limit .uni_app .un_cont .uic_join p{margin-top: 30px;text-align: center;color: #4d4d4d;}
+.free_limit .uni_app .un_cont .foot_text{text-align: center;margin: 0 auto;display: block;color: #93b0c2;}
+.free_limit .state_list{width: 90%;margin: 0 auto;display: none}
+.free_limit .state_list li{text-align:left;margin: 10px auto;line-height:26px;position: relative;padding-left: 20px;color: #4d4d4d;}
+.free_limit .state_list li span{position: absolute;left: 0;top: 0;}
+.free_limit .state_list li span::before{content: "";width: 10px;height: 10px;border-radius: 50%;display: inline-block;background: #fff;vertical-align: middle;margin: -2px 4px 0 0 ;}
+
+/* 免息额度2 */
+
+body{background: url("../images/free_bg.jpg") no-repeat #d9dadb;background-size: 100%;font-size: 12px;}
+.free_limit_two{margin: 30px auto;}
+.free_limit_two .free_img{width: 94%;margin: 0 auto; display: block;}
+.free_limit_two .phone_call{width: 94%;height:auto;background: #d5d3d4;margin:0 auto;padding-top: 20px;background: rgba(225,225,225,0.9);border-bottom-left-radius:16px;border-bottom-right-radius:16px;padding-bottom: 20px;}
+.free_limit_two .phone_call .cong{margin: 0 auto;color: #e54b68;font-size: 1.2rem;text-align: center;}
+.free_limit_two .phone_call .account{text-align: center;margin: 10px auto;display: block;color: #4d4d4d;font-size: 1.1rem;}
+.free_limit_two .phone_call .once_get{width: 90%;height: 50px;line-height:50px;text-align: center;color: #fff; display: block;background: #e54b68;margin:20px auto 0;border-radius:28px;font-size: 1.2rem; }
+.free_limit_two .phone_call .state_list{width: 90%;margin: 0 auto;display: none}
+.free_limit_two .phone_call .state_list li{text-align:left;margin: 10px auto;line-height:26px;position: relative;padding-left: 20px;color: #4d4d4d;}
+.free_limit_two .phone_call .state_list li span{position: absolute;left: 0;top: 0;}
+.free_limit_two .phone_call .state_list li span::before{content: "";width: 10px;height: 10px;border-radius: 50%;display: inline-block;background: #fff;vertical-align: middle;margin: -2px 4px 0 0 ;}
+.free_limit_two .phone_call a{text-align: center;display: block;margin: 20px auto ;color: #4d4d4d;}
+.free_limit_two .uni_app{width:100%;height: 364px;background:url("../images/un_ico.png") no-repeat top center;background-size:100%;margin-top: 70px;position:relative;padding-top: 10px;}
+.free_limit_two .uni_app .un_ico{position: absolute;left: 50%;top:-42px;width: 92px;margin-left: -46px;}
+.free_limit_two .uni_app .un_cont{height:auto;background:#d9dadb;width: 100%;margin-top: 38px;padding-bottom: 50px;}
+.free_limit_two .uni_app .un_cont .tit{text-align: center;margin: 0 auto;display: block;color: #24bcb4;padding-top: 10px;}
+.free_limit_two .uni_app .un_cont .un_list{display: table;width: 100%;height:120px;margin-top: 20px; }
+.free_limit_two .uni_app .un_cont .un_list li{display: table-cell;}
+.free_limit_two .uni_app .un_cont .un_list li img{width: 68px;margin: 0 auto;display: block;}
+.free_limit_two .uni_app .un_cont .un_list li span{text-align: center;margin: 10px auto 0;display: block;}
+.free_limit_two .uni_app .un_cont .uic_join{width: 90%;height:90px; border: 1px solid #a6cdd9;margin: 40px auto;background: #f7f7f7;position: relative;}
+.free_limit_two .uni_app .un_cont .uic_join .jon_bg{width: 100%;height:30px;background:url("../images/hands_bg.png") no-repeat top center ;background-size :100%;display: block;position: absolute;left: 0;top:-14px;line-height:30px;text-align: center;color: #4989bb;}
+.free_limit_two .uni_app .un_cont .uic_join p{margin-top: 30px;text-align: center;color: #4d4d4d;}
+.free_limit_two .uni_app .un_cont .foot_text{text-align: center;margin: 0 auto;display: block;color: #93b0c2;}
